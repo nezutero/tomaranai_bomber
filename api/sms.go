@@ -4,6 +4,6 @@ import (
 
 )
 
-func Api() {
+func SmsApi() {
 
 }
