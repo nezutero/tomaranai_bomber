@@ -14,6 +14,19 @@
 
 ###
 
+### project structure:
+```
+.
+├── api
+│   └── api.go
+├── cmd
+│   └── main.go
+├── core
+│   └── services.go
+├── Dockerfile
+├── go.mod
+└── README.md
+```
 
 ## installation
 
@@ -35,7 +48,7 @@ git clone https://github.com/kenjitheman/tomaranai_bomber
 in dev stage rn
 ```
 
-### you can also run it using docker ->
+### run it using docker ->
 
 ```
 docker build -t your_image_name .
