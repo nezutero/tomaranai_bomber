@@ -4,6 +4,6 @@ import (
 
 )
 
-func Start() {
+func SmsBomb() {
 
 }

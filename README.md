@@ -18,11 +18,13 @@
 ```
 .
 ├── api
-│   └── api.go
+│   ├── email.go
+│   └── sms.go
 ├── cmd
 │   └── main.go
 ├── core
-│   └── services.go
+│   ├── email_bomber.go
+│   └── sms_bomber.go
 ├── Dockerfile
 ├── go.mod
 └── README.md
@@ -44,8 +46,11 @@ git clone https://github.com/kenjitheman/tomaranai_bomber
 
 ## usage
 
+- run it using: go run main.go
+
 ```
-in dev stage rn
+cd cmd
+go run main.go
 ```
 
 ### run it using docker ->
@@ -64,6 +69,6 @@ to discuss what you would like to change.
 
 ## license
 
-- [MIT](https://choosealicense.com/licenses/mit/)
+- `[MIT](https://choosealicense.com/licenses/mit/)`
 
 ###
