@@ -69,6 +69,6 @@ to discuss what you would like to change.
 
 ## license
 
-- `[MIT](https://choosealicense.com/licenses/mit/)`
+- [MIT](https://choosealicense.com/licenses/mit/)
 
 ###
