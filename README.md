@@ -1,4 +1,4 @@
-<h2 align="center">tomaranai - fast async bomber</h2>
+<h2 align="center">tomaranai - fast, async, multithreaded bomber</h2>
 
 ###
 
@@ -17,13 +17,11 @@
 ### project structure:
 ```
 .
-├── api
-│   ├── email.go
-│   └── sms.go
 ├── cmd
 │   └── main.go
 ├── core
 │   ├── email_bomber.go
+│   ├── generator.go
 │   └── sms_bomber.go
 ├── Dockerfile
 ├── go.mod
