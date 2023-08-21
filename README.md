@@ -1,8 +1,4 @@
-<h2 align="center">tomaranai - fast, async, multithreaded bomber</h2>
-
-###
-
-<img align="right" height="250" src="https://media.tenor.com/eRwdyxU7MEAAAAAC/shokugeki-no.gif"  />
+## fast, async, multithreaded bomber
 
 ###
 
@@ -15,8 +11,8 @@
 ###
 
 ### project structure:
-```
-.
+
+```go
 ├── cmd
 │   └── main.go
 ├── core
@@ -25,42 +21,37 @@
 │   └── sms_bomber.go
 ├── Dockerfile
 ├── go.mod
+├── LICENSE
 └── README.md
 ```
 
 ## installation
 
-use git clone:
-
-```
+```shell
 git clone https://github.com/kenjitheman/tomaranai_bomber
 ```
 
 ## usage
 
-- run it using: go run main.go
+- run it:
 
-```
+```shell
 cd cmd
 go run main.go
 ```
 
-### run it using docker ->
+- or run it using docker:
 
-```
+```shell
 docker build -t your_image_name .
 docker run -d -p 8080:80 your_image_name
 ```
 
 ## contributing
 
-- pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-- please make sure to update tests as appropriate.
+- pull requests are welcome, for major changes, please open an issue first to
+  discuss what you would like to change
 
 ## license
 
 - [MIT](https://choosealicense.com/licenses/mit/)
-
-###
