@@ -2,10 +2,6 @@
 
 ###
 
-<img align="right" height="250" src="https://media.tenor.com/eRwdyxU7MEAAAAAC/shokugeki-no.gif"  />
-
-###
-
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" height="200" alt="go logo"  />
   <img width="0" />
