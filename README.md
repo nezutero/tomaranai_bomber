@@ -59,5 +59,3 @@ docker run -d -p 8080:80 your_image_name
 ## license
 
 - [MIT](https://choosealicense.com/licenses/mit/)
-
-###
