@@ -30,12 +30,6 @@
 
 ## installation
 
-use go get:
-
-```
-go get github.com/kenjitheman/tomaranai_bomber
-```
-
 use git clone:
 
 ```
