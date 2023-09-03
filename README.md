@@ -1,4 +1,4 @@
-<h2 align="center">tomaranai - fast, async, multithreaded bomber</h2>
+<h3 align="center">tomaranai - fast, async, multithreaded bomber</h3>
 
 ###
 
@@ -27,22 +27,20 @@
 
 ## installation
 
-use git clone:
-
 ```
 git clone https://github.com/kenjitheman/tomaranai_bomber
 ```
 
 ## usage
 
-- run it using: go run main.go
+- run it:
 
 ```
 cd cmd
 go run main.go
 ```
 
-### run it using docker ->
+- or run it using docker:
 
 ```
 docker build -t your_image_name .
@@ -51,10 +49,8 @@ docker run -d -p 8080:80 your_image_name
 
 ## contributing
 
-- pull requests are welcome. For major changes, please open an issue first to
-  discuss what you would like to change.
-
-- please make sure to update tests as appropriate.
+- pull requests are welcome, for major changes, please open an issue first to
+  discuss what you would like to change
 
 ## license
 
