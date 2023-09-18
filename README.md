@@ -12,7 +12,7 @@
 
 ### project structure:
 
-```
+```go
 ├── cmd
 │   └── main.go
 ├── core
@@ -27,7 +27,7 @@
 
 ## installation
 
-```
+```shell
 git clone https://github.com/kenjitheman/tomaranai_bomber
 ```
 
@@ -35,14 +35,14 @@ git clone https://github.com/kenjitheman/tomaranai_bomber
 
 - run it:
 
-```
+```shell
 cd cmd
 go run main.go
 ```
 
 - or run it using docker:
 
-```
+```shell
 docker build -t your_image_name .
 docker run -d -p 8080:80 your_image_name
 ```
