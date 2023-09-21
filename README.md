@@ -1,4 +1,4 @@
-<h3 align="center">tomaranai - fast, async, multithreaded bomber</h3>
+## fast, async, multithreaded bomber
 
 ###
 
