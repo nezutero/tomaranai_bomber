@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"main.go/core"
+	"github.com/kenjitheman/tomaranai_bomber/core"
 )
 
 func main() {
