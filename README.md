@@ -1,57 +1,32 @@
-## fast, async, multithreaded bomber
+# Fast, async, multithreaded bomber
 
-###
+## Installation
 
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" height="200" alt="go logo"  />
-  <img width="0" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="200" alt="docker logo"  />
-</div>
-
-###
-
-### project structure:
-
-```go
-├── cmd
-│   └── main.go
-├── core
-│   ├── email_bomber.go
-│   ├── generator.go
-│   └── sms_bomber.go
-├── Dockerfile
-├── go.mod
-├── LICENSE
-└── README.md
+```sh
+git clone https://github.com/nezutero/tomaranai_bomber
 ```
 
-## installation
+## Usage
 
-```shell
-git clone https://github.com/kenjitheman/tomaranai_bomber
-```
+- Run it:
 
-## usage
-
-- run it:
-
-```shell
+```sh
 cd cmd
 go run main.go
 ```
 
-- or run it using docker:
+- Or run it using docker:
 
-```shell
+```sh
 docker build -t your_image_name .
 docker run -d -p 8080:80 your_image_name
 ```
 
-## contributing
+## Contributing
 
-- pull requests are welcome, for major changes, please open an issue first to
-  discuss what you would like to change
+- Pull requests are welcome, for major changes, please open an issue first to
+  discuss what you would like to change.
 
-## license
+## License
 
-- [MIT](https://choosealicense.com/licenses/mit/)
+- [MIT](./LICENSE)
